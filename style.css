@@ -1,13 +1,18 @@
+body{
+  background-color: #333;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgba(72, 72, 72, 0.573);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
+  display: block;
   max-width: 100%;
   height: auto;
 }
@@ -24,12 +29,12 @@ nav li {
 nav a {
   display: block;
   padding: 10px 15px;
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: rgba(0, 255, 0, 0.2);
+  background-color: rgba(5, 255, 5, 0.444);
   border-radius: 50px;
 }
 
