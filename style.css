@@ -1,5 +1,5 @@
 body{
-  background-color: #333;
+  background-color: rgb(220, 220, 220);
 }
 
 header {
@@ -7,14 +7,15 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: rgba(72, 72, 72, 0.573);
+  background-color: rgba(255, 252, 252, 0.732);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 3em;
+  margin-left: 1em;
 }
 
 nav ul {
@@ -29,7 +30,7 @@ nav li {
 nav a {
   display: block;
   padding: 10px 15px;
-  color: #fff;
+  color: rgb(27, 26, 26);
   text-decoration: none;
 }
 
