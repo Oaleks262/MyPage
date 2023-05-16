@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   background-color: rgb(220, 220, 220);
 }
@@ -38,17 +41,43 @@ nav a:hover {
   background-color: rgba(5, 255, 5, 0.444);
   border-radius: 50px;
 }
-
-@media only screen and (max-width: 600px) {
+@media(min-width:601px){
+  .manu{
+    display: none;
+  }
+}
+@media(max-width: 600px) {
   header {
-    flex-direction: column;
+    flex-direction:unset;
     align-items: flex-start;
+    height: 100px;
   }
-
+  .logo {
+    display: flex;
+    padding: 5px 0 0 5px;
+  }
   nav {
+    display: none;
     margin-top: 20px;
+
   }
 
+  .manu{
+    padding: 10px ;
+    
+  }
+  .manu button{
+    box-shadow: 0 0 1px;
+    border-radius: 3px;
+    border: 0px;
+    background-color: greenyellow;
+    box-shadow: 0 0 2px ;
+  }
+  .manu button:hover{
+      background-color: rgba(175, 251, 62, 0.525);
+      box-shadow: none;
+      border: 1px solid green;
+    }
   nav ul {
     flex-direction: column;
   }
