@@ -1,7 +1,17 @@
 let btn = document.querySelector('.btnmanu');
-btn.addEventListener('click', openMenu);
+let newNav = document.querySelector('.dublnav');
+let openMenu = false;
+btn.addEventListener('click', openMen);
 
 
-function openMenu(e) {
+function openMen() {
+  if (openMenu == false) {
+    newNav.style.display = 'flex';
+    openMenu = true;
+  }
+  else {
+    newNav.style.display = 'none';
+    openMenu = false;
+  }
   
 }
